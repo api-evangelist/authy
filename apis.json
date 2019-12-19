@@ -1,0 +1,63 @@
+{
+    "name": "Authy",
+    "description": "Two-factor authentication (2FA) adds an additional layer of protection beyond passwords. Download our free app today and follow our easy to use guides to protect your accounts and personal information.",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/1306-authy.jpg",
+    "tags": [
+        "api service provider",
+        "authentication",
+        "have api",
+        "security",
+        "target"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/authy\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Authy",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/1306-authy.jpg",
+            "humanURL": "https:\/\/www.authy.com\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/authy-openapi.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Website",
+            "url": "https:\/\/www.authy.com\/"
+        },
+        {
+            "type": "Blog",
+            "url": "https:\/\/www.authy.com\/blog\/"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "http:\/\/www.crunchbase.com\/company\/authy-inc"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/authy-inc"
+        },
+        {
+            "type": "Developers",
+            "url": "https:\/\/www.authy.com\/developers\/"
+        },
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/authy"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/authy"
+        }
+    ]
+}
