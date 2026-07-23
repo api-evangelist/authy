@@ -1,0 +1,40 @@
+generated: '2026-07-18'
+method: searched
+source: https://github.com/twilio/authy-python, https://github.com/twilio/authy-ruby, https://registry.npmjs.org/authy
+note: >-
+  The first-party Authy API client SDKs (Python and Ruby) are published under
+  the original Authy GitHub organization (now redirecting to the Twilio org) and
+  are DEPRECATED / archived. Twilio directs new development to the Twilio Verify
+  API. The npm `authy` package is a community (third-party) library, not a
+  first-party Authy/Twilio release.
+packages:
+- language: python
+  registry: pypi
+  name: authy
+  url: https://pypi.org/project/authy/
+  install: pip install authy
+  version: 2.2.6
+  source: https://github.com/twilio/authy-python
+  official: true
+  deprecated: true
+  successor: Twilio Verify (twilio Python SDK)
+- language: ruby
+  registry: rubygems
+  name: authy
+  url: https://rubygems.org/gems/authy
+  install: gem install authy
+  version: 3.0.1
+  source: https://github.com/twilio/authy-ruby
+  official: true
+  deprecated: true
+  successor: Twilio Verify (twilio Ruby SDK)
+- language: javascript
+  registry: npm
+  name: authy
+  url: https://www.npmjs.com/package/authy
+  install: npm install authy
+  version: 1.4.0
+  source: https://github.com/evilpacket/node-authy
+  official: false
+  deprecated: false
+  note: community-maintained third-party client, not published by Authy/Twilio

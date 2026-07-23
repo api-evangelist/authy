@@ -1,0 +1,30 @@
+generated: '2026-07-18'
+method: searched
+source: >-
+  https://github.com/twilio/authy-python (archived), https://github.com/twilio/authy-ruby
+  (archived, "Deprecated"), https://www.authy.com (footer directs to Twilio Verify)
+status: deprecated
+summary: >-
+  The Authy developer API and its first-party client SDKs are deprecated. Twilio
+  has archived the Authy SDK repositories, marked the PyPI/RubyGems packages
+  deprecated, and directs new development to the Twilio Verify API. The Authy
+  desktop applications were discontinued in 2024; the consumer Authy mobile app
+  remains available.
+deprecation:
+  deprecated: true
+  successor: Twilio Verify API
+  successor_url: https://www.twilio.com/en-us/user-authentication-identity/verify
+  policy_url: https://www.twilio.com/en-us/user-authentication-identity/verify
+  evidence:
+  - twilio/authy-python GitHub repository archived
+  - twilio/authy-ruby GitHub repository archived and labeled Deprecated
+  - PyPI authy 2.2.6 notes phone verification now lives in the Twilio API (Verify V2)
+  - RubyGems authy 3.0.1 marked deprecated
+milestones:
+- date: '2015'
+  event: Authy acquired by Twilio
+- date: '2024'
+  event: Authy desktop applications discontinued
+status_page: null
+sla: null
+deprecated_operations: []

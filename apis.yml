@@ -1,7 +1,17 @@
 aid: authy
 name: Authy
-description: Authy is a company surfaced as a portfolio company of a16z, dcvc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Authy is a two-factor authentication (2FA) product originally built by Authy
+  Inc. and acquired by Twilio in 2015. It provided a consumer authenticator app
+  (TOTP soft tokens, encrypted cloud backup, and multi-device sync) alongside a
+  developer-facing Authy API for one-time passwords over SMS and voice, soft
+  tokens, and push authentication. Twilio has since folded the Authy developer
+  API into the Twilio Verify API, deprecated and archived the first-party Authy
+  client SDKs, and discontinued the Authy desktop applications in 2024. The
+  consumer Authy mobile app remains available. New integrations are directed to
+  Twilio Verify. This profile was surfaced as a portfolio-company lead and is
+  enriched here from Authy's remaining public surface (marketing site, archived
+  GitHub organization, and deprecated SDK registries).
 url: https://raw.githubusercontent.com/api-evangelist/authy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +20,59 @@ x-backed-by:
 - dcvc
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://avatars.githubusercontent.com/u/109142?v=4
 tags:
 - Company
+- Authentication
+- Two-Factor Authentication
+- 2FA
+- Identity
+- Security
+- One-Time Password
+- TOTP
+- Verification
+- Push Authentication
 apis: []
+common:
+- url: https://www.authy.com
+  type: Website
+- url: https://www.twilio.com/en-us/user-authentication-identity/verify
+  type: Documentation
+- url: https://github.com/twilio
+  type: GitHubOrganization
+- url: https://help.twilio.com
+  type: Support
+- url: packages/authy-packages.yml
+  type: Packages
+- url: packages/authy-packages.yml
+  type: SDKs
+- url: lifecycle/authy-lifecycle.yml
+  type: Lifecycle
+- url: lifecycle/authy-lifecycle.yml
+  type: Deprecation
+- url: security/authy-domain-security.yml
+  type: DomainSecurity
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
