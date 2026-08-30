@@ -59,6 +59,11 @@ tags:
 - Push Authentication
 apis: []
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/twilio/
+  name: Twilio
+  x-relationship: acquired
+  x-evidence: "and acquired by Twilio in 2015."
 - url: https://www.authy.com
   type: Website
 - url: https://www.twilio.com/en-us/user-authentication-identity/verify
